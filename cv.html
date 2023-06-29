@@ -1,0 +1,140 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="application-name" content="Currículum Vitae">
+    <meta name="description" content="CV de Peggy Gou">
+    <meta name="author" content="Varela, Daniela Belén">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>CV</title>
+    <link rel="stylesheet" href="estilo.css">
+    <script src="https://kit.fontawesome.com/9584d3994b.js" crossorigin="anonymous"></script> 
+</head>
+<body>
+    
+    <div id="header">
+        <div class="container">
+            <nav>
+                <img src="logo.png" class="logo" alt="">
+                <ul>
+                    <li><a href="#">Inicio</a></li>
+                    <li><a href="#">Sobre Mi</a></li>
+                    <li><a href="#">Portafolio</a></li>
+                    <li><a href="#">Contacto</a></li>
+                </ul>
+            </nav>
+            <div class="header-text">
+                <p>Productora, DJ y Diseñadora</p>
+                <h1>Hola, soy <span>Peggy Gou</span></h1>
+            </div>
+        </div>
+    </div>
+
+    <!-----SOBRE MI----->
+    <div id="sobre-mi">
+        <div class="container">
+            <div class="fila">
+                <div class="sobremi-col-1">
+                    <img src="user.png" alt="">
+                </div>
+                <div class="sobremi-col-2">
+                    <h1 class="sub-titulo">Sobre Mi</h1>
+                    <p> DJ surcoreana, productora musical y diseñadora de moda basada en Alemania. He lanzado siete EP en sellos discográficos que incluyen Ninja Tune y Phonica Records. En 2019, lancé mi propio sello discográfico independiente, Gudu Records, y lancé una compilación de DJ-Kicks, DJ-Kicks: Peggy Gou, en !k7 Records. En 2019 también he fundado mi propia marca de ropa llamada Kirin, la cual debutó el mismo año en el Fashion Week de París.</p>
+                    <div class="tab-titulos">
+                        <p class="tab-links active-link" onclick="opentab('habilidades')">Habilidades</p>
+                        <p class="tab-links" onclick="opentab('experiencia')">Experiencia</p>
+                        <p class="tab-links" onclick="opentab('educacion')">Educación</p>
+                    </div>
+                    <div class="tab-contents active-tab" id="habilidades">
+                        <ul>
+                            <li><span>DJ</span><br>Disc jockey profesional</li>
+                            <li><span>Productora</span><br>Productora de música</li>
+                            <li><span>Diseñadora</span><br>Diseñadora de ropa urbana</li>
+                        </ul>
+                    </div>
+                    <div class="tab-contents" id="experiencia">
+                        <ul>
+                            <li><span>Festivales</span><br>Boiler Room, Coachella, Glastonbury, Sonus, Dektantel, Ibiza, Primavera Sound, Sónar y tantos mas.</li>
+                            <li><span>Discotecas</span><br>Berghain en Berlín, Plastic People, Printworks en Londres y varios lugares mas.</li>
+                            <li><span>FIFA 19</span><br>Aparezco en el aclamado videojuego de futbol FIFA 19.</li>
+                        </ul>
+                    </div>
+                    <div class="tab-contents" id="educacion">
+                        <ul>
+                            <li><span>2009</span><br>London College of Fashion.</li>
+                            <li><span>2009</span><br>Antes de ir a Londres a estudiar diseño una amiga me enseñó a mezclar música.</li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!------PORTAFOLIO------->
+    <div id="portafolio">
+        <div class="container">
+            <h1 class="sub-titulo">Mi Trabajo</h1>
+            <div class="lista-trabajo">
+                <div class="trabajo">
+                    <img src="i-go.png" alt="">
+                    <div class="layer">
+                        <h3>I GO</h3>
+                        <p>Click aquí para escuchar en Youtube</p>
+                        <a href="https://youtu.be/XKJgVg7Eux0"
+                        target="popup"
+                        onclick="window.open('https://youtu.be/XKJgVg7Eux0', 'popup', 'width=600,height=600'); return false;"><i class="fa-solid fa-up-right-from-square"></i></a>
+                    </div>
+                </div>
+                <div class="trabajo">
+                    <img src="nanana.png" alt="">
+                    <div class="layer">
+                        <h3>Nanana</h3>
+                        <p>Click aquí para escuchar en Youtube</p>
+                        <a href="https://youtu.be/ssKWFlclNFg"
+                        target="popup"
+                        onclick="window.open('https://youtu.be/ssKWFlclNFg', 'popup', 'width=600,height=600'); return false;"><i class="fa-solid fa-up-right-from-square"></i></a>
+                    </div>
+                </div>
+                <div class="trabajo">
+                    <img src="live-from-the-village.png" alt="">
+                    <div class="layer">
+                        <h3>Live from the Village</h3>
+                        <p>Click aquí para escuchar en Youtube</p>
+                        <a href="https://youtu.be/kD7-ziibWmQ"
+                        target="popup"
+                        onclick="window.open('https://youtu.be/kD7-ziibWmQ', 'popup', 'width=600,height=600'); return false;"><i class="fa-solid fa-up-right-from-square"></i></a>
+                    </div>
+                </div>
+            </div>
+            <a href="https://www.youtube.com/@PeggyGou" class="btn">Ver mas en mi canal oficial</a>
+        </div>
+    </div>
+
+    <!----------CONTACTO-------->
+    <div id="contacto">
+        <div class="container">
+            <div class="contacto">
+                <h1 class="sub-titulo">Contactame via</h1>
+                <p><a href="mailto:daniela.belen.varela@gmail.com" class="mail"><i class="fa-solid fa-envelope"></i> daniela.belen.varela@gmail.com</a></p>
+                <p><i class="fa-solid fa-phone"></i> 0123456789</p>
+                <div class="redes-sociales">
+                    <a href="https://www.instagram.com/peggygou_/"><i class="fa-brands fa-instagram"></i></a>
+                    <a href="https://www.facebook.com/peggygoupeggygou/"><i class="fa-brands fa-facebook"></i></a>
+                    <a href="https://soundcloud.com/peggygou"><i class="fa-brands fa-soundcloud"></i></a>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!------------SONIDO---------->
+    <div>
+        <audio id="audio" controls>
+            <source type="audio/mp3" src="audio.mp3">
+        </audio>
+    </div>
+
+    <script src="programacion.js"></script>
+
+</body>
+</html>
